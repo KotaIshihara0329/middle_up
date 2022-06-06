@@ -395,8 +395,8 @@ select {
 .footer__one {
   height: 52.2rem;
   width: 100%;
-  background-image: -webkit-image-set(url(../../img/bg3.png) 1x, url(../../img/bg3@2x.png) 2x);
-  background-image: image-set(url(../../img/bg3.png) 1x, url(../../img/bg3@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/bg3.png) 1x, url(../img/bg3@2x.png) 2x);
+  background-image: image-set(url(../img/bg3.png) 1x, url(../img/bg3@2x.png) 2x);
 }
 
 .footer__link {
@@ -1181,8 +1181,8 @@ select {
 .plan {
   padding-left: 2rem;
   padding-right: 2rem;
-  background-image: -webkit-image-set(url(../../img/bg2.png) 1x, url(../../img/bg2@2x.png) 2x);
-  background-image: image-set(url(../../img/bg2.png) 1x, url(../../img/bg2@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/bg2.png) 1x, url(../img/bg2@2x.png) 2x);
+  background-image: image-set(url(../img/bg2.png) 1x, url(../img/bg2@2x.png) 2x);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -1362,7 +1362,7 @@ select {
 .access {
   padding-left: 2rem;
   padding-right: 2rem;
-  background-image: url(../../img/bg.png);
+  background-image: url(../img/bg.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -1637,7 +1637,7 @@ select {
 }
 
 .japanese__decoration {
-  background: url(../../img/bg.png);
+  background: url(../img/bg.png);
   background-position: center;
   background-size: cover;
   height: 68.1rem;
@@ -1944,8 +1944,8 @@ select {
 }
 
 .cuisine__hero {
-  background-image: -webkit-image-set(url(../../img/menu-header.png) 1x, url(../../img/menu-header@2x.png) 2x);
-  background-image: image-set(url(../../img/menu-header.png) 1x, url(../../img/menu-header@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/menu-header.png) 1x, url(../img/menu-header@2x.png) 2x);
+  background-image: image-set(url(../img/menu-header.png) 1x, url(../img/menu-header@2x.png) 2x);
   height: 50rem;
   background-position: center;
   background-size: cover;
@@ -2024,7 +2024,7 @@ select {
 }
 
 .cuisine__child {
-  background-image: url(../../img/bg.png);
+  background-image: url(../img/bg.png);
   width: 81.3rem;
   height: 38.1rem;
   position: absolute;
@@ -2203,8 +2203,8 @@ select {
 }
 
 .onsen__hero {
-  background-image: -webkit-image-set(url(../../img/onsen-header.png) 1x, url(../../img/onsen-header@2x.png) 2x);
-  background-image: image-set(url(../../img/onsen-header.png) 1x, url(../../img/onsen-header@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/onsen-header.png) 1x, url(../img/onsen-header@2x.png) 2x);
+  background-image: image-set(url(../img/onsen-header.png) 1x, url(../img/onsen-header@2x.png) 2x);
   height: 50rem;
   background-position: center;
   background-size: cover;
@@ -2283,7 +2283,7 @@ select {
 }
 
 .onsen__child {
-  background-image: url(../../img/bg.png);
+  background-image: url(../img/bg.png);
   width: 81.3rem;
   height: 38.1rem;
   position: absolute;
@@ -2551,8 +2551,8 @@ select {
 }
 
 .oheya__hero {
-  background-image: -webkit-image-set(url(../../img/oheya-header.png) 1x, url(../../img/oheya-header@2x.png) 2x);
-  background-image: image-set(url(../../img/oheya-header.png) 1x, url(../../img/oheya-header@2x.png) 2x);
+  background-image: -webkit-image-set(url(../img/oheya-header.png) 1x, url(../img/oheya-header@2x.png) 2x);
+  background-image: image-set(url(../img/oheya-header.png) 1x, url(../img/oheya-header@2x.png) 2x);
   height: 50rem;
   background-position: center;
   background-size: cover;
@@ -2618,7 +2618,7 @@ select {
 }
 
 .oheya__child {
-  background-image: url(../../img/bg.png);
+  background-image: url(../img/bg.png);
   width: 81.3rem;
   height: 38.1rem;
   position: absolute;

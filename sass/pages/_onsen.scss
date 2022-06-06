@@ -7,8 +7,8 @@
 
     &__hero {
         background-image: image-set(
-        url(onsen-header.png) 1x,
-        url(onsen-header@2x.png) 2x);
+        url(../img/onsen-header.png) 1x,
+        url(../img/onsen-header@2x.png) 2x);
         height: 50rem;
         background-position: center;
         background-size: cover;
@@ -89,7 +89,7 @@
     }
 
     &__child {
-        background-image: url(bg.png);
+        background-image: url(../img/bg.png);
         width: 81.3rem;
         height: 38.1rem;
         position: absolute;
