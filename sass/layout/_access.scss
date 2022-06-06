@@ -1,0 +1,156 @@
+.access {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-image: url(../../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 11rem;
+
+    @include mq(mb) {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    &__title-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+
+    &__logo {
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    &__title {
+        margin-top: 2rem;
+        font-size: 3.6rem;
+        font-weight: 500;
+        margin-bottom: 8.4rem;
+        line-height: 1;
+
+        @include mq(ip) {
+            font-size: 3rem;
+        }
+
+    }
+
+    &__info-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        @include mq(ipp) {
+            flex-direction: column;
+        }
+
+    }
+
+    &__img {
+        width: 65.6rem;
+        height: 37rem;
+        margin-right: 8.3rem;
+        flex-basis: 60%;
+
+        @include mq(pcs) {
+            margin-right: 3rem;
+        }
+
+        @include mq(ipp) {
+            width: 45rem;
+            margin-right: 0;
+        }
+
+        @include mq(ip2) {
+            width: 35rem;
+        }
+       
+        
+
+
+    }
+
+    &__info {
+        transform: translateY(-1rem);
+        flex-basis: 40%;
+
+        @include mq(ipp) {
+            text-align: center;
+            margin-top: 3rem;
+        }
+       
+      
+
+    }
+
+    &__address {
+        margin-bottom: 2rem;
+        display: inline-block;
+
+        @include mq(ipp) {
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__ipp {
+        display: none;
+
+        @include mq(ipp) {
+            display: initial;
+        }
+    }
+
+    &__text {
+        font-weight: 800;
+        line-height: 1;
+        margin: 2.4rem 0;
+
+    }
+
+    &__description {
+        font-weight: 500;
+        line-height: 1;
+
+        &--last {
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    &__alert {
+        line-height: 2;
+
+        @include mq(ip2) {
+            font-size: 1.3rem;
+        }
+
+
+    }
+
+    &__map {
+        margin: 6.9rem auto 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        @include mq(ipp) {
+            width: 50rem;
+            height: 40rem;
+        }
+
+        @include mq(ip2) {
+            width: 35rem;
+            height: 30rem;
+        }
+    }
+
+
+
+
+
+}

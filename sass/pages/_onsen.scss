@@ -1,0 +1,340 @@
+.onsen {
+    transform: translateY(8rem);
+
+    @include mq(pc) {
+        height: 302rem;
+    }
+
+    &__hero {
+        background-image: image-set(
+        url(../../img/onsen-header.png) 1x,
+        url(../../img/onsen-header@2x.png) 2x);
+        height: 50rem;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    &__head1 {
+        @include absCenter;
+        color: $color-white;
+        margin: 0;
+    }
+
+    // main
+    &__main {
+        height: 142.45rem;
+    }
+
+    
+
+    &__head2 {
+        text-align: center;
+        margin: 0;
+        margin-top: 9.8rem;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 2.2;
+
+        @include mq(ip2) {
+            font-size: 1.3rem;
+        }
+
+
+    }
+
+    &__head3 {
+        font-size: 2.4rem;
+        margin: 0;
+        line-height: 1;
+        font-weight: 500;
+
+        @include mq(mb) {
+            font-size: 2rem;
+        }
+
+    }
+
+    &__bread {
+        margin-top: 3.6rem;
+        text-align: left;
+
+    }
+
+
+    
+    &__info {
+        position: relative;
+
+      
+
+        &--2 {
+            margin-top: 52.2rem;
+
+            @include mq(pc) {
+                margin-top: 72.2rem;
+            }
+        }
+
+        &--3 {
+            margin-top: 104.4rem;
+
+            @include mq(pc) {
+                margin-top: 144.4rem;
+            }
+  
+        }
+
+
+    }
+
+    &__child {
+        background-image: url(../../img/bg.png);
+        width: 81.3rem;
+        height: 38.1rem;
+        position: absolute;
+        right:0;
+        top: 13.5rem;
+        padding-left: 23.8rem;
+        padding-top: 6rem;
+
+        @include mq(pc) {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%) translateY(45%);
+            padding-top: 10rem;
+            text-align: center;
+            padding-left: initial;
+            width: 70rem;
+            
+        }
+
+        @include mq(ip) {
+            width: 60rem;
+        }
+        @include mq(ip2) {
+            width: 45rem;
+        }
+
+        @include mq(mb) {
+            width: 33.5rem;
+        }
+
+        &--2 {
+            padding-left: 6rem;
+            left: 0;
+
+            @include mq(pc) {
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                transform: translateX(-50%) translateY(45%);
+                text-align: center;
+                padding-left: initial;
+                
+            }
+
+            @include mq(ip) {
+                width: 60rem;
+            }
+            @include mq(ip2) {
+                width: 45rem;
+            }
+            @include mq(mb) {
+                width: 33.5rem;
+            }
+        }
+        
+       
+
+    }
+
+    &__detail {
+        line-height: 2.2;
+        margin-bottom: 4.1rem;
+        margin-top: 4.1rem;
+
+        @include mq(ip2) {
+            font-size: 1.3rem;
+        }
+
+    }
+
+    &__pr {
+        display: none;
+
+        @include mq(ip) {
+            display: initial;
+        }
+    }
+
+   
+
+    &__br {
+        display: none;
+
+        @include mq(ip2) {
+            display: initial;
+        }
+    }
+
+    &__mr {
+        display: none;
+
+        @include mq(mb) {
+            display: initial;
+        }
+
+       
+    }
+
+
+    &__img {
+
+        width: 52.5rem;
+        height: 30rem;
+        z-index: 2;
+        position: absolute;
+        top: 7.8rem;
+        left: 0;
+
+        @include mq(pc) {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            
+        }
+
+        @include mq(ip) {
+            width: 45rem;
+        }
+        @include mq(mb) {
+            width: 33.5rem;
+        }
+
+        &--2 {
+            right: 0;
+            left: initial;
+
+            @include mq(pc) {
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                transform: translateX(-50%);
+                
+            }
+
+            @include mq(ip) {
+                width: 45rem;
+            }
+            @include mq(mb) {
+                width: 33.5rem;
+            }
+        }
+
+    }
+
+
+
+    &__effect {
+        border-top: 1px solid #E7E7E7;
+        border-bottom: 1px solid #E7E7E7;
+        padding:9.55rem 15.05rem  7.4rem;
+        margin-bottom: 17.65rem;
+
+        @include mq(pc) {
+            margin-top: 35rem;
+            margin-bottom: 0;
+        }
+
+        @include mq(ip) {
+            padding:9.55rem 7rem  7.4rem;
+        }
+
+        @include mq(mb) {
+            padding:9.55rem 3rem  7.4rem;
+        }
+
+
+    }
+
+    &__effect-title {
+        font-size: 2.6rem;
+        text-align: center;
+        margin-bottom: 5.15rem;
+
+        font-weight: 500;
+        
+    }
+
+    &__effect-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.5rem;
+
+        border-top: 1px solid #E7E7E7;
+        padding: 1.75rem 0;
+
+        &:last-child {
+            border-bottom: 1px solid #E7E7E7;
+        }
+
+        @include mq(ip) {
+            font-size: 1.3rem;
+        }
+
+
+    }
+
+
+    &__effect-name {
+        width: 24%;
+
+
+        &--sp {
+            transform: translateY(-1.0rem);
+
+            @include mq(pc) {
+                transform: translateY(0);
+            }
+        }
+    }
+
+    &__effect-function {
+        width: 76%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+

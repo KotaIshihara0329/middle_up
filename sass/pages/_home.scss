@@ -1,0 +1,56 @@
+
+
+.mainhero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+
+    &__text {
+        writing-mode: vertical-rl;
+        position: absolute;
+        color: $color-white;
+        z-index: 3;
+        font-size: 3.4rem;
+        top: 36.2rem;
+        right: 50.8rem;
+        line-height: 2.5;
+        letter-spacing: 7px;
+
+        @include mq(pc) {
+
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+
+
+        }
+
+        
+    }
+
+
+
+
+    &__img {
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        animation: change-img 30s infinite;
+        
+        height: 100vh;
+
+        &:nth-of-type(1) {
+            animation-delay: 0s;
+        }
+        &:nth-of-type(2) {
+            animation-delay: 10s;
+        }
+        &:nth-of-type(3) {
+            animation-delay: 20s;
+        }
+
+    }
+}

@@ -1,0 +1,156 @@
+.plan {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-image: image-set(
+        url(../../img/bg2.png) 1x,
+        url(../../img/bg2@2x.png) 2x);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 77.5rem;
+
+    @include mq(ipp) {
+        height: 150rem;
+    }
+
+    &__title-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+
+    &__logo {
+        width: 4rem;
+        height: 4rem;
+        
+
+
+    }
+
+    &__title {
+        margin-top: 2rem;
+        font-size: 3.6rem;
+        font-weight: 500;
+        margin-bottom: 6.6rem;
+        line-height: 1;
+
+        @include mq(ip) {
+            font-size: 3rem;
+        }
+
+
+
+    }
+
+    &__parent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+
+        @include mq(ipp) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+  
+            
+        }
+
+
+    }
+
+    &__child {
+        align-self: flex-start;
+
+        @include mq(ipp) {
+            &:not(:last-child) {
+                margin-bottom: 5rem;
+                text-align: left;
+                align-self: center;
+               
+            }
+        }
+
+        &--2 {
+            margin: 0 9.4rem;
+            align-self: flex-start;
+
+            @include mq(pcl) {
+                margin: 0 8rem;
+            }
+
+            @include mq(pc) {
+                margin: 0 3rem;
+            }
+
+            @include mq(ipp) {
+                margin: initial;
+                align-self: center;
+
+
+            }
+
+        }
+
+        &--3 {
+            align-self: flex-start;
+
+            @include mq(ipp){
+                align-self: center;
+
+            }
+
+
+        }
+
+    }
+
+    &__img {
+        width: 33.1rem;
+        height: 20.9rem;
+        text-align: center;
+    }
+
+
+    &__text {
+        margin-top: 3.2rem;
+        margin-bottom: 2.8rem;
+        font-size: 2rem;
+
+        @include mq(pc) {
+            font-size: 1.6rem;
+        }
+
+        @include mq(ipp) {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+
+
+    }
+
+    &__description {
+        line-height: 2;
+        font-size: 1.6rem;
+
+        @include mq(pc) {
+            font-size: 1.2rem;
+        }
+
+        @include mq(ipp) {
+            text-align: center;
+        }
+
+
+    }
+
+    
+
+
+
+}

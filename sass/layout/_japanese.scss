@@ -1,0 +1,94 @@
+.japanese {
+    
+    
+    writing-mode: vertical-rl;
+
+
+   
+    &__title {
+        font-size: 2.8rem;
+        font-weight: 500;
+        letter-spacing: 1.5rem;
+        margin-left: 11.8rem;
+        line-height: 2;
+        margin-right: 10.1rem;
+        margin-top: 6.4rem;
+
+        &--2 {
+            margin-top: 8.5rem;
+
+        }
+
+        @include mq(pcs) {
+            margin-left: 3rem;
+            margin-right: 3rem;
+        }
+
+        @include mq(ip2) {
+            margin-right: 0.5rem;
+            line-height: 1.5;
+            margin-left: 1rem;
+        }
+
+        @include mq(mb) {
+            margin-right: 0;
+            font-size: 2.5rem;
+            line-height: 1.2;
+        }
+
+
+
+    }
+
+    &__description {
+        text-orientation: upright;
+        line-height: 2.7;
+        letter-spacing: 7px;
+        margin-left: 11.8rem;
+        padding-top: 14.9rem;
+
+        @include mq(pc) {
+            margin-left: 5rem;
+        }
+
+        @include mq(ip) {
+            line-height: 1.5;
+      
+        }
+
+        @include mq(ip2) {
+            margin-left: 2rem;
+        }
+        @include mq(mb) {
+            margin-left: 1rem;
+        }
+  
+
+    }
+
+    &__name {
+        font-size: 2.2rem;
+        letter-spacing: 7px;
+        text-align: right;
+        margin-bottom: 2rem;
+
+        @include mq(mb) {
+            font-size: 2rem;
+
+        }
+        
+
+      
+
+    }
+
+
+}
+
+.japanese__decoration {
+    background: url(../../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 68.1rem;
+    width: 100%;
+}

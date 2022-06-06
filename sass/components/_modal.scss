@@ -1,0 +1,122 @@
+.modal {
+    display: none;
+
+}
+
+
+.ouvrent #mask {
+    display: block;
+    background-color: $color-black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+.ouvrent {
+    display: block;
+
+}
+
+.ouvrent .modal {
+    &__book {
+        background-color: $color-white;
+        width: 55rem;
+        height: 60rem;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        padding-right: 6rem;
+        padding-left: 6rem;
+
+        @include mq(ip) {
+            width: 90%;
+
+
+
+        }
+
+    }
+
+    &__batu {
+        position: absolute;
+        width: 1.8rem;
+        height: 1.8rem;
+        z-index: 11;
+        top: 2.2rem;
+        right: 2.2rem;
+
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 2.9rem;
+        padding-bottom: 2.95rem;
+        border-bottom: 1px solid #E7E7E7;
+        line-height: 1;
+
+    }
+
+    &__form {
+        padding-top: 2.15rem;
+        padding-bottom: 6.4rem;
+    }
+
+    &__label {
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 500;
+        text-align: left;
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+        line-height: 1;
+
+        &-small {
+            font-size: 1.4rem;
+        }
+    }
+
+    &__input {
+        width: 100%;
+        outline: none;
+        border: 1px solid #E7E7E7;
+        padding: 0.9rem 0 0.9rem 1rem;
+        font-size: 1.4rem;
+        
+
+
+    }
+    &__input:focus {
+        outline: none;
+    }
+
+    &__button {
+        border: 1px solid #797878;
+        padding: 1.3rem 6.7rem;
+        background-color: transparent;
+        text-align: center;
+        display: block;
+        margin: 6.4rem auto 0;
+
+
+    }
+
+    
+    
+
+
+
+
+}
+
+select {
+    color: #797878;
+}
+

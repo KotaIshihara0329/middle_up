@@ -1,0 +1,500 @@
+.header {
+    height: 8rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: $color-white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 2rem;
+    font-weight: 800;
+    position: fixed;
+    z-index: 5;
+    display: none;
+
+
+
+    &__left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        @include mq(ip) {
+            flex-basis: 20rem;
+        }
+
+
+    }
+
+    &__img {
+        margin-right: 12rem;
+    }
+
+
+    &__ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        @include mq(ip) {
+            display: none;
+        }
+
+    }
+
+    &__li {
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+
+    }
+
+    &__a {
+        color: $color-black;
+    }
+
+    &__right {
+        @include mq(mb) {
+            display: none;
+        }
+    }
+
+
+
+    &__booking {
+        background-color: $color-button;
+        color: $color-white;
+        padding: 1.6rem 3.7rem;
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        line-height: 0;
+
+        @include mq(ip) {
+            margin-right: 6rem;
+        }
+
+        @include mq(mb) {
+            padding: 1.6rem 2rem;
+        }
+
+       
+
+        
+        
+    }
+
+    &__book {
+        margin-left: 1rem;
+        transform: translateY(1px);
+
+        @include mq(mb) {
+            padding: 1.3rem 0;
+            margin-left: initial;
+        }
+
+
+
+
+
+    }
+
+    &__calender {
+        display: flex;
+
+        @include mq(mb) {
+            display: none;
+        }
+    }
+
+
+}
+.headersub {
+    height: 8rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: $color-white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 2rem;
+    font-weight: 800;
+    position: fixed;
+    z-index: 5;
+
+
+
+
+    &__left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        @include mq(ip) {
+            flex-basis: 20rem;
+        }
+
+
+    }
+
+    &__img {
+        margin-right: 12rem;
+    }
+
+
+    &__ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        @include mq(ip) {
+            display: none;
+        }
+
+    }
+
+    &__li {
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+
+    }
+
+    &__a {
+        color: $color-black;
+    }
+
+    &__right {
+        @include mq(mb) {
+            display: none;
+        }
+    }
+
+
+
+    &__booking {
+        background-color: $color-button;
+        color: $color-white;
+        padding: 1.6rem 3.7rem;
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        line-height: 0;
+
+        @include mq(ip) {
+            margin-right: 6rem;
+        }
+
+        @include mq(mb) {
+            padding: 1.6rem 2rem;
+        }
+
+       
+
+        
+        
+    }
+
+    &__book {
+        margin-left: 1rem;
+        transform: translateY(1px);
+
+        @include mq(mb) {
+            padding: 1.3rem 0;
+            margin-left: initial;
+        }
+
+
+
+
+
+    }
+
+    &__calender {
+        display: flex;
+
+        @include mq(mb) {
+            display: none;
+        }
+    }
+
+
+}
+
+.header__transparent {
+    height: 8rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 2rem;
+    font-weight: 800;
+    position: fixed;
+    z-index: 5;
+    display: none;
+
+
+
+    &__left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        @include mq(ip) {
+            flex-basis: 20rem;
+        }
+
+
+    }
+
+    &__img {
+        margin-right: 12rem;
+    }
+
+
+    &__ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        @include mq(ip) {
+            display: none;
+        }
+
+    }
+
+    &__li {
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+
+    }
+
+    &__a {
+        color: $color-white;
+    }
+
+    &__right {
+        @include mq(mb) {
+            display: none;
+        }
+    }
+
+
+
+    &__booking {
+        background-color: $color-button;
+        color: $color-white;
+        padding: 1.6rem 3.7rem;
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        line-height: 0;
+
+        @include mq(ip) {
+            margin-right: 6rem;
+        }
+
+        @include mq(mb) {
+            padding: 1.6rem 2rem;
+        }
+
+       
+
+        
+        
+    }
+
+    &__book {
+        margin-left: 1rem;
+        transform: translateY(1px);
+
+        @include mq(mb) {
+            padding: 1.3rem 0;
+            margin-left: initial;
+        }
+
+
+
+
+
+    }
+
+    &__calender {
+        display: flex;
+
+        @include mq(mb) {
+            display: none;
+        }
+    }
+
+
+}
+
+.menu {
+    position: fixed;
+    background-color: $color-white;
+    color: $color-black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 50;
+    opacity: 0;
+    right: -500rem;
+    transition: all 0.5s;
+
+    
+
+    &__ul {
+        @include absCenter;
+        text-align: center;
+    }
+
+    &__li {
+        &:not(:last-child) {
+            margin-bottom: 5rem;
+        }
+
+        &--book {
+            display: none;
+
+            @include mq(mb) {
+                display: inline-block;
+            }
+        }
+    }
+
+    &__a {
+        color: $color-black;
+        font-size: 5rem;
+        cursor: pointer;
+
+        @include mq(mb) {
+            font-size: 3rem;
+        }
+
+        &--book {
+
+                display: inline-block;
+                background-color: $color-button;
+                padding: 1rem 2rem;
+                color: $color-white;
+                font-size: 3.6rem;
+                margin-top: 5rem;
+               
+        }
+
+    }
+
+}
+
+.button {
+    display: none;
+    cursor: pointer;
+    width: 6rem;
+    height: 6rem;
+    
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    right: 2%;
+    top: 3rem;
+    background-color: transparent;
+    z-index: 100;
+    transition: all 0.5s;
+    transform: translateY(-2rem);
+
+    @include mq(ip) {
+        display: inline-block;
+    }
+}
+
+.hum {
+    display: none;
+    height: 2.5px;
+    width: 3.5rem;
+    background-color: $color-black;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1.5rem;
+    z-index: 100;
+
+    &::before, &::after {
+        content: '';
+        display: inline-block;
+        height: 2.5px;
+        width: 3.5rem;
+        background-color: $color-black;
+        position: absolute;
+        top: -1.2rem;
+        left: 0;
+        transition: all 0.25s;
+    }
+
+    &::after {
+        top: 1.2rem;
+    }
+
+    @include mq(ip) {
+        display: inline-block;
+    }
+
+}
+
+// After Click
+
+.open .menu {
+    right: 0;
+    opacity: 1;
+
+}
+
+.open .button span {
+    background-color: transparent;
+}
+
+.open .button span::before {
+    transform: translateY(1.2rem) rotate(-315deg);
+}
+.open .button span::after {
+    transform: translateY(-1.2rem) rotate(315deg);
+}
+
+
+.open #mask {
+    display: block;
+    background-color: $color-black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    opacity: 0.6;
+    z-index: 5;
+}
+
+#mask {
+    display: none;
+    transition: all 0.5s;
+}
+
+
+.ouvre {
+    display: flex;
+    
+}
+
+
